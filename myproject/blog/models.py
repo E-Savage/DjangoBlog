@@ -2,6 +2,8 @@ from django.db import models
 
 # wanted to check to see if this was working
 
+# teehee
+
 # Create your models here.
 
 class Post(models.Model):
