@@ -1,5 +1,6 @@
-{% extends 'admin/base.html'%}
+{% extends 'admin/base.html'%} <!-- inherits from base webpage -->
 
+<!-- starts the block for information to be filled in-->
 {% block content %} 
     <div class="module">
         <table>
@@ -10,9 +11,9 @@
                     <th>Created At</th>
                 </tr>
             </thead>
-        
+
             <tbody>
-                {% for post in posts %}
+                {% for post in posts %} <!-- for loop to get all information out of each post in list -->
                     <tr>
                         <td>{{ post.title }}</td>
                         <td>{{ post.content }}</td>
